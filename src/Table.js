@@ -1,14 +1,5 @@
 import React from 'react'
 
-function Table() {
-    return (
-      <table>
-        <TableHeader />
-        <TableBody />
-      </table>
-    );
-} 
-
 function TableBody(props) {
     const rows = props.characterData.map((row, index) => {
       return (

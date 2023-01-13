@@ -21,17 +21,12 @@ const characters = [
 ];
 
 function MyApp() {
-  return (
-    <div className="container">
-      <Table />
-    </div>
-  );  
+    return (
+        <div className="container">
+          <Table characterData={characters} />
+        </div>
+      );
 }
 
-return (
-    <div className="container">
-      <Table characterData={characters} />
-    </div>
-  )
 
 export default MyApp;
