@@ -1,5 +1,5 @@
 react frontend
 
-clone
-npm init
-npm start
+1. clone
+2. npm init
+3. npm start
