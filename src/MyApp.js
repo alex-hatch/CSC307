@@ -42,8 +42,8 @@ function MyApp() {
 
  async function makePostCall(person){
   try {
-     const response = await axios.post('http://localhost:5001/users', person);
-     return response;
+     const response = await axios.post('http://localhost:5001/users', person)
+     return response.data;
   }
   catch (error) {
      console.log(error);
