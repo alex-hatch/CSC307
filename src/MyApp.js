@@ -28,6 +28,7 @@ function MyApp() {
        setCharacters([...characters, person] );
     });
     setCharacters([...characters, person] );
+    window.location.reload();
   }
 
   async function fetchAll(){
